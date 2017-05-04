@@ -2,7 +2,7 @@ Parameters for jk3d
                   *******************
 
 START OF PARAMETERS:
-C:/Users/zhaohuihui/workspace/JK3DTest/testdata-iw3d-3D.dat         -file with data
+D:/GitHub/JK3DTest/testdata-iw3d-3D.dat         -file with data
 1   2   3    4     0             -columns for X, Y, Z, var, sec var
 -1.0e21   1.0e21                 -trimming limits
 0                                -option: 0=grid, 1=cross, 2=jackknife
@@ -11,9 +11,9 @@ xvk.dat                          -file with jackknife data
 3                                -debugging level: 0,1,2,3
 testdata-iw3d-3D.dbg             -file for debugging output
 testdata-iw3d-3D.out             -file for kriged output
-10 0 0.05                         -nx,xmn,xsiz
-10 0 0.05                         -ny,ymn,ysiz
-1 0 0.05                         -nz,zmn,zsiz
+100 0 0.05                         -nx,xmn,xsiz/生成结果x方向像素个数，
+100 0 0.05                         -ny,ymn,ysiz
+1 0 0.05                         -nz,zmn,zsiz/生成结果x方向像素个数（一个剖面层），
 1    1      1                    -x,y and z block discretization
 1    16                          -min, max data for kriging
 16    8                           -max per octant (0-> not used), blank if more than this many octants are empty
